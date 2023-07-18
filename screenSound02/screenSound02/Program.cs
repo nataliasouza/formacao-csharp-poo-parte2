@@ -1,18 +1,17 @@
 ﻿
+Album albumDoGunsInRoses = new Album();
+albumDoGunsInRoses.Nome = "Use your ilusion I";
+
 Musica musicaGNR = new Musica();
 musicaGNR.Nome = "November Rain";
-musicaGNR.Artista = "Guns in Roses";
-musicaGNR.Duracao = 560;
-musicaGNR.Disponivel = true;
+musicaGNR.Duracao = 538;
 
+Musica musicaGNR2 = new Musica();
+musicaGNR2.Nome = "Live and Let Die";
+musicaGNR2.Duracao = 184;
 
-Musica musicaLegiaoUrbana = new Musica();
-musicaLegiaoUrbana.Nome = "Que país é este?";
-musicaLegiaoUrbana.Artista = "Legião Urbana";
-musicaLegiaoUrbana.Duracao = 390;
-musicaLegiaoUrbana.Disponivel = false;
+albumDoGunsInRoses.AdicionarMusica(musicaGNR);
+albumDoGunsInRoses.AdicionarMusica(musicaGNR2);
 
-musicaGNR.ExibirFichaTecnica();
-musicaLegiaoUrbana.ExibirFichaTecnica();
-
+albumDoGunsInRoses.ExibirMusicasDoAlbum();
 

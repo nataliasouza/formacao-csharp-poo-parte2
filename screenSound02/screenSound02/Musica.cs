@@ -8,7 +8,7 @@ public class Musica
     public string DescricaoResumida => 
         $"Música: {Nome}, pertence à banda {Artista}.";
 
-
+   
     public void ExibirFichaTecnica()
     {
         Console.WriteLine("\n======================================================================================\n");
