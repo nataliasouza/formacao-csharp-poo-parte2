@@ -72,4 +72,5 @@ https://github.com/nataliasouza/formacao-csharp-poo-parte3
 
 ### CERTIFICADO - Módulo 2
 
-![certificado-csharp-poo02](https://github.com/nataliasouza/formacao-csharp-poo-parte2/assets/13735095/7750f3cf-fa8d-416f-af1e-19c42f039b75)
+![certificado-csharp-poo02](https://github.com/nataliasouza/formacao-csharp-poo-parte2/assets/13735095/dbf68b22-ba05-4646-98a1-1c10aad34b5f)
+
