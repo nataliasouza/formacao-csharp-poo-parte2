@@ -1,4 +1,24 @@
-﻿Banda guns = new Banda("Guns in Roses");
+﻿
+#region "Podcast e Episódios"
+
+Episodio episodioObservabilidade = new(1, "Episódio: Técnicas de Observabilidade", 45);
+episodioObservabilidade.AdicionarConvidados("Érika");
+episodioObservabilidade.AdicionarConvidados("Fernando");
+episodioObservabilidade.AdicionarConvidados("Evandro");
+
+Episodio episodioCiberseguranca = new(2, "Episódio: Fundamentos de Cibersegurança", 85);
+episodioCiberseguranca.AdicionarConvidados("Lucas");
+episodioCiberseguranca.AdicionarConvidados("Karina");
+
+Podcast podcast = new ("Podcast Especial", "Hérica e Tiago");
+podcast.AdicionarEpisodio(episodioObservabilidade);
+podcast.AdicionarEpisodio(episodioCiberseguranca);
+podcast.ExibirDetalhes();
+
+#endregion
+
+#region "Bandas e Musicas"
+Banda guns = new Banda("Guns in Roses");
 Album albumDoGunsInRoses = new Album("Use your ilusion I");
 Genero generoRock = new Genero("Rock");
 
@@ -39,6 +59,7 @@ Musica musicaAlok2 = new Musica(alok, "Alone")
     Disponivel = true,
 };
 
+
 albumDoGunsInRoses.AdicionarMusica(musicaGNR);
 albumDoGunsInRoses.AdicionarMusica(musicaGNR2);
 guns.AdicionarAlbum(albumDoGunsInRoses);
@@ -70,3 +91,4 @@ generoBalada.AdicionarGeneroDaMusica(musicaAlok2);
 
 generoBalada.ExibirMusicasPorGenero();
 
+#endregion
